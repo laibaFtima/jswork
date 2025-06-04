@@ -7,3 +7,10 @@
 //undefined => undefined 
 //nonpremitive
 //object
+// let val=3;
+// let negval=-val;
+// console.log(negval);
+// console.log(1+2+"5");
+let val=+true;
+console.log(val);
+
