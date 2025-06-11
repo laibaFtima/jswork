@@ -55,12 +55,12 @@
 // console.log(obj2.email);
 //is me organl value assign hoti asli change b ho ga aghr hum change kry gy 
 //now strings 
-let nme="laiba";
-let game = 40;
+// let nme="laiba";
+// let game = 40;
 // console.log(nme + game + "score"); old method
-console.log(`the player ${nme} and socre is ${game}`);
+// console.log(`the player ${nme} and socre is ${game}`);
 //new method for string is also same 
-let nm1=new String("laiba");
+// let nm1=new String("laiba");
 // console.log(nm1[2]);
 // console.log(nm1.__proto__);
 // console.log(nm1.length);
@@ -69,8 +69,24 @@ let nm1=new String("laiba");
 // console.log(nm1.indexOf("i"));
 //substring and splice are smae but splice can work in reverse with minus 
 // console.log(nm1.slice(-3,-1));
-const score=100;
-console.log(score);
-const balance = new Number(400);
-console.log(balance.toString());
-console.log(typeof balance);
+// const score=100;
+// console.log(score);
+// const balance = new Number(400);
+// console.log(balance.toString());
+// console.log(typeof balance);
+// let num = 124.4665556;
+// console.log(num.toFixed(3));
+// console.log(num.toPrecision(3));
+// let num1=100000000000000;
+// console.log(num1.toLocaleString('en-IN'));
+//math library 
+// console.log(Math.random());
+//0 or 1 k drmayn ki values dy ga 
+// console.log((Math.random()*10)+1)
+//10 values ko left side pr shift krny k liye or 1 ko plus kiya 0.1 yaa 0.4 ko avoid krny k liye
+// console.log(Math.floor(Math.random()*10)+1);
+//poora aik integer leny k liye 
+// aghr hum ne max or min k drmya k value leni h to phr hum aik formula use krty hn 
+let max= 20;
+let min = 10;
+console.log(Math.floor(Math.random()*(max-min+1))+min);
